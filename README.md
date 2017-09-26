@@ -9,18 +9,18 @@ The IPT can be used by combining several remote sensing and in-situ instruments,
 All measurements are integrated within the framework of optimal estimation to guarantee a retrieved profile with maximum information content. It has been found that the liquid water content profiles obtained with the IPT are significantly more accurate than common methods that use the microwave-derived liquid water path to scale the radar reflectivity profile. 
 
 ### Structure ###
-/IPT-FOR
-        |-- /source  : Include all Fortran 90 source codes.
-        |-- /bin     : Is where executable file will be created after running the Makefile inside this directory.
-        |-- /databank: This directory should include all database needed as, for instance:
-            |--/O2.dat
-            |--/coeff.dat
-            |--/oxygen_l93.dat
-            |--/water_l93.dat
-            |--/H2O.dat
-            |--/coeff_fap_r98_r.dat
-            etc.
-        |-- /output   : In this directory will be placed all outputs from IPT
+        /IPT-FOR
+                |-- /source  : Include all Fortran 90 source codes.
+                |-- /bin     : Is where executable file will be created after running the Makefile inside this directory.
+                |-- /databank: This directory should include all database needed as, for instance:
+                        |--/O2.dat
+                        |--/coeff.dat
+                        |--/oxygen_l93.dat
+                        |--/water_l93.dat
+                        |--/H2O.dat
+                        |--/coeff_fap_r98_r.dat
+                        etc. (contact me for more information)
+                |-- /output   : In this directory will be placed all outputs from IPT
 
 
 ### Refence ###
